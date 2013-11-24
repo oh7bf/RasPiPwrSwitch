@@ -4,7 +4,7 @@ POWER SWITCH WITH I2C CONTROL
 
 Connection to the Raspberry Pi I2C bus is done as follows
 
-Raspberry Pi     power supply CONN3     
+Raspberry Pi     power switch CONN4     
 SDA (GPIO0) ---- 2 SDA
 SCL (GPIO1) ---- 4 SCL
 
@@ -26,8 +26,7 @@ PCB. Three ground jumper wires should also be soldered since the PCB is one
 sided for easier production.
 
 The circuit is being tested at the time of writing this README file. Building 
-needs good understanding of the circuit and good skills in electronics. Badly
-build power supply could damage the Raspberry Pi permanently. 
+needs good understanding of the circuit and good skills in electronics. 
 
 
 Parts
@@ -53,6 +52,9 @@ Software
 The PIC is programmed with the code in repository
 
 PiPIC/12f675/pic12si2c/pic12si2c.asm
+
+The LED blinking code indicating an active timed tasks needs to be commented 
+out from the file above.
 
 The EEPROM needs to have following data
 

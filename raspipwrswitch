@@ -1,0 +1,4 @@
+schematics raspipwrswitch.sch 
+output-name board
+elements-dir ~/gaf/pcb-elements
+

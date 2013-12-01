@@ -32,6 +32,30 @@ needs good understanding of the circuit and good skills in electronics.
 Parts
 -----
 
+C1,C2,C5   100nF
+C3         2.2uF/25V
+C4         1uF/35V
+CONN1      Anderson powerpole connector
+CONN2      Anderson powerpole connector
+CONN3      Anderson powerpole connector
+CONN4      modular connector 4P4C
+D1         LED 3 mm	
+D2         LED 3 mm	
+F1         UF185 polyfuse (1.85 A) or microfuse 
+F2         UF185 polyfuse (1.85 A) or microfuse 
+J1	   5 pins header 
+J2,J3,J4,J5,J6   2 pins header
+Q1,Q3,Q5   2N3904
+Q2,Q4      IRF9530
+Q6,Q7	   BS170
+R1,R4      10k
+R2,R5      2k2
+R3,R6,R9,R10    100k
+R7         1k
+R8         ~ 1 M
+S1,S2      PCB button
+U1         PIC12F675
+U2         LP2950-3.0
 
 Files
 -----
@@ -49,7 +73,7 @@ README.txt               - this file
 Software
 --------
 
-The PIC is programmed with the code in repository
+The PIC is programmed with the code in repository ('powerswitch' branch)
 
 PiPIC/12f675/pic12si2c/pic12si2c.asm
 

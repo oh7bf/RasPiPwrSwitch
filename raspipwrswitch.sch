@@ -44,7 +44,7 @@ refdes=R2
 T 53500 48800 5 10 0 0 0 0 1
 footprint=R025
 T 53800 48200 5 10 1 1 0 0 1
-value=1k
+value=2k2
 }
 C 52600 48600 1 0 0 varistor-1.sym
 {
@@ -154,7 +154,7 @@ refdes=R5
 T 45800 48900 5 10 0 0 0 0 1
 footprint=R025
 T 46100 48300 5 10 1 1 0 0 1
-value=1k
+value=2k2
 }
 C 44900 48700 1 0 0 varistor-1.sym
 {
@@ -491,7 +491,7 @@ CLK
 T 54000 40100 9 10 1 0 0 0 1
 Jaakko Koivuniemi
 T 53900 40400 9 10 1 0 0 0 1
-16 November 2013
+1 December 2013
 T 49900 41000 9 10 1 0 0 0 1
 Raspberry Pi I2C controlled power switch
 T 54100 45700 9 10 1 0 0 0 1

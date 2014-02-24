@@ -100,6 +100,6 @@ address   data      bits inverted except for TRISIO
 
 See the manual page pipic(1) on how this data could be programmed.
 
-At the Raspberry Pi the sever pipicswd(1) and client pipicsw(1) can be used 
+At the Raspberry Pi the server pipicswd(1) and client pipicsw(1) can be used 
 to operate the switch and read its status.
 
